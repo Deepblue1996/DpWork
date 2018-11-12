@@ -6,7 +6,7 @@
 
 DpWork是一款便捷的应用程序开发框架。
 
-### [not open source, only available for use]
+### [不是开源的，只供使用]
 
 [[中文文档]](https://github.com/Deepblue1996/DpWork/blob/master/README_CN.md)
 
