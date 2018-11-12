@@ -4,19 +4,19 @@
 [![](https://jitpack.io/v/Deepblue1996/Bun.svg)](https://jitpack.io/#Deepblue1996/Bun)
 <a href="https://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/license-apache-green.svg"></a>
 
-DpWork is a convenient application development framework.
+DpWork是一款便捷的应用程序开发框架。
 
 ### [not open source, only available for use]
 
 [[中文文档]](https://github.com/Deepblue1996/DpWork/blob/master/README_CN.md)
 
-## How do I use DpWork
+## 如果使用
 
-One:
+第一步:
 
-Create or open your Application Class, 
+创建并打开 Application Class,
 
-You must extend DpWorkApplication
+必须继承 DpWorkApplication，重写
 
 <pre><code>@Override
 protected String buglyId() {
@@ -24,27 +24,23 @@ protected String buglyId() {
 }
 </code></pre>
 
-Two:
+第二步:
 
-Create public class WorkCore extends DpWorkCore
+创建 public class WorkCore extends DpWorkCore，并重写
 
 <pre><code>@Override
 protected IBaseScreen mainScreen() {
-    return DemoFirstScreen.newInstance(); // Screen
+    return DemoFirstScreen.newInstance(); // 首个界面
 }
 </code></pre>
 
-## Basic deployment
+## 基础配置
 
-To get a Git project into your build:
+要在构建中加入Git项目:
 
-Step 1. Add the JitPack repository to your build file
+步骤1.
 
-gradle
-maven
-sbt
-leiningen
-Add it in your root build.gradle at the end of repositories:
+在根Gradle中, repositories里添加:
 
 	allprojects {
 	    repositories {
@@ -53,12 +49,13 @@ Add it in your root build.gradle at the end of repositories:
        	maven { url "https://raw.githubusercontent.com/Deepblue1996/DpWork/master" }
 	    }
 	}
-Step 2. Add the dependency
+步骤2. 添加依赖关系
 
 	dependencies {
-	        compile 'com.deep:DpWork:1.0.0'
+	        compile 'com.deep:Bun:1.0.1'
 	}
-Step 3. Gradle
+
+步骤3. Gradle
 
 ## LICENSE
 
