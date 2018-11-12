@@ -19,9 +19,9 @@ Create or open your Application Class,
 You must extend DpWorkApplication
 
 <pre><code>@Override
-    protected String buglyId() {
-        return "";
-    }
+protected String buglyId() {
+    return "";
+}
 </code></pre>
 
 Two:
@@ -29,9 +29,9 @@ Two:
 Create public class WorkCore extends DpWorkCore
 
 <pre><code>@Override
-    protected IBaseScreen mainScreen() {
-        return DemoFirstScreen.newInstance(); // Screen
-    }
+protected IBaseScreen mainScreen() {
+    return DemoFirstScreen.newInstance(); // Screen
+}
 </code></pre>
 
 ## Basic deployment
