@@ -6,7 +6,7 @@
 
 DpWork是一款便捷的应用程序开发框架。
 
-### [not open source, only available for use]
+### [不是开源的，只供使用]
 
 [[中文文档]](https://github.com/Deepblue1996/DpWork/blob/master/README_CN.md)
 
@@ -52,7 +52,7 @@ protected IBaseScreen mainScreen() {
 步骤2. 添加依赖关系
 
 	dependencies {
-	        compile 'com.deep:Bun:1.0.1'
+	        compile 'com.deep:DpWork:1.0.0'
 	}
 
 步骤3. Gradle
