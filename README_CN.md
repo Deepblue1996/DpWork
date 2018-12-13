@@ -52,7 +52,7 @@ protected IBaseScreen mainScreen() {
 步骤2. 添加依赖关系
 
 	dependencies {
-	        compile 'com.deep:DpWork:1.0.1'
+	        compile 'com.deep:DpWork:1.0.2'
 	}
 
 步骤3. Gradle
