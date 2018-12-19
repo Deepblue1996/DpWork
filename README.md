@@ -50,6 +50,7 @@ Add it in your root build.gradle at the end of repositories:
 	    repositories {
 		...
 		maven { url 'https://jitpack.io' }
+		maven { url 'https://dl.bintray.com/zchu/maven/' }
        	maven { url "https://raw.githubusercontent.com/Deepblue1996/DpWork/master" }
 	    }
 	}
