@@ -53,7 +53,7 @@ protected IBaseScreen mainScreen() {
 步骤2. 添加依赖关系
 
 	dependencies {
-	        compile 'com.deep:DpWork:1.0.7.1'
+	        compile 'com.deep:DpWork:1.0.8'
 	}
 步骤3. 修改AndroidManifest，全面屏适配，基础修改，样式
 
