@@ -59,7 +59,14 @@ Step 2. Add the dependency
 	dependencies {
 	        compile 'com.deep:DpWork:1.0.7.1'
 	}
-Step 3. Gradle
+Step 3. Edit AndroidManifest, full screen adaptation, basic modification, style
+
+    <meta-data
+        android:name="android.max_aspect"
+        android:value="2.1" />
+Step 4. For confusion, refer to proguard-rules.pro here
+
+Step 5. Gradle
 
 ## LICENSE
 

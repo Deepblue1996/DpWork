@@ -55,8 +55,14 @@ protected IBaseScreen mainScreen() {
 	dependencies {
 	        compile 'com.deep:DpWork:1.0.7.1'
 	}
+步骤3. 修改AndroidManifest，全面屏适配，基础修改，样式
 
-步骤3. Gradle
+    <meta-data
+        android:name="android.max_aspect"
+        android:value="2.1" />
+步骤4. 使用混淆，可参考这里的 proguard-rules.pro
+
+步骤5. Gradle
 
 ## LICENSE
 
