@@ -54,7 +54,7 @@ protected void initCore() {
 步骤2. 添加依赖关系
 
 	dependencies {
-	        compile 'com.deep:DpWork:1.2.0'
+	        compile 'com.deep:DpWork:2.0.0'
 	}
 步骤3. 修改AndroidManifest，全面屏适配，基础修改，样式
 
