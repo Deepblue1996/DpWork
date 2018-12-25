@@ -19,8 +19,9 @@ Create or open your Application Class,
 You must extend DpWorkApplication
 
 <pre><code>@Override
-protected String buglyId() {
-    return "";
+@DpBugly(id = "")
+protected void initApplication() {
+
 }
 </code></pre>
 
@@ -29,8 +30,8 @@ Two:
 Create public class WorkCore extends DpWorkCore
 
 <pre><code>@Override
-protected IBaseScreen mainScreen() {
-    return DemoFirstScreen.newInstance(); // Screen
+@DpInit(core = *.class)
+protected void initCore() {
 }
 </code></pre>
 
@@ -57,7 +58,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.deep:DpWork:1.1.1'
+	        compile 'com.deep:DpWork:1.2.0'
 	}
 Step 3. Edit AndroidManifest, full screen adaptation, basic modification, style
 

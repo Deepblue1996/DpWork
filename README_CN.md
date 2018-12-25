@@ -19,8 +19,9 @@ DpWork是一款便捷的应用程序开发框架。
 必须继承 DpWorkApplication，重写
 
 <pre><code>@Override
-protected String buglyId() {
-    return "";
+@DpBugly(id = "")
+protected void initApplication() {
+
 }
 </code></pre>
 
@@ -29,8 +30,8 @@ protected String buglyId() {
 创建 public class WorkCore extends DpWorkCore，并重写
 
 <pre><code>@Override
-protected IBaseScreen mainScreen() {
-    return DemoFirstScreen.newInstance(); // 首个界面
+@DpInit(core = *.class)
+protected void initCore() {
 }
 </code></pre>
 
@@ -53,7 +54,7 @@ protected IBaseScreen mainScreen() {
 步骤2. 添加依赖关系
 
 	dependencies {
-	        compile 'com.deep:DpWork:1.1.1'
+	        compile 'com.deep:DpWork:1.2.0'
 	}
 步骤3. 修改AndroidManifest，全面屏适配，基础修改，样式
 
