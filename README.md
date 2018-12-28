@@ -58,7 +58,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.deep:DpWork:2.0.1'
+	        compile 'com.deep:DpWork:2.0.5'
 	}
 Step 3. Edit AndroidManifest, full screen adaptation, basic modification, style
 
