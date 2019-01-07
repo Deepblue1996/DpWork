@@ -567,3 +567,5 @@
   **[] $VALUES;
   public *;
 }
+
+-keep class com.ywl5320.wlmedia.**{*;}
