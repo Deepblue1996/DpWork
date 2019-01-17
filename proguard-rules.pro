@@ -568,4 +568,28 @@
   public *;
 }
 
+
+#############################################
+#
+# 运行错误
+#
+#############################################
+-keep class okhttp3.** { *; }
+-keep interface okhttp3.** { *; }
+-dontwarn okhttp3.**
+
+-keep class okio.** { *; }
+-keep interface okio.** { *; }
+-dontwarn okio.**
+
+-keep class com.hitomi.** { *; }
+-keep interface com.hitomi.** { *; }
+-dontwarn com.hitomi.**
+
+-dontwarn retrofit2.**
+-keep class retrofit2.** { *; }
+-keepattributes Signature
+-keepattributes Exceptions
+
 -keep class com.ywl5320.wlmedia.**{*;}
+-keep class pl.droidsonroids.gif.**{*;}
