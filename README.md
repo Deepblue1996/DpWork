@@ -11,7 +11,7 @@ Adopt - single Activity+ multi Fragment frame design
 Support for adaptive layouts, high custom popup support, network layer Dove, image frame glide,
 OpenGL audio media playback, utility class set, built-in internationalization language selection, support advanced anti - flashback mechanism
 
-### [not open source, only available for use] <a href="http://developer.android.com/index.html">See using sample source code</a>
+### [not open source, only available for use] <a href="https://github.com/Deepblue1996/DpWorkDemo">See using sample source code</a>
 
 [[中文文档]](https://github.com/Deepblue1996/DpWork/blob/master/README_CN.md)
 
