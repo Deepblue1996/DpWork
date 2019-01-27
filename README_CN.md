@@ -18,16 +18,14 @@ DpWork是一款便捷的应用程序开发框架。
 
 继承 DpWorkApplication，然后添加类注解
 
-<pre><code>
-@DpBugly(id = "")
+<pre><code>@DpBugly(id = "")
 </code></pre>
 
 第二步:
 
 创建 public class WorkCore extends DpWorkCore, 然后添加类注解
 
-<pre><code>
-@DpInit(core = *.class)
+<pre><code>@DpInit(core = *.class)
 </code></pre>
 
 ## 基础配置
