@@ -14,7 +14,7 @@ openGL音频媒体播放，实用工具类集合，内置国际化语言选择�
 ### <a href="https://github.com/Deepblue1996/DpWorkDemo">查看使用示例源码</a>
 
 
-[[中文文档]](https://github.com/Deepblue1996/DpWork/blob/master/README_CN.md)
+[[English document]](https://github.com/Deepblue1996/DpWork/blob/master/README.md)
 
 ## 如果使用
 
