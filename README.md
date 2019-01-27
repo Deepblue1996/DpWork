@@ -4,7 +4,12 @@
 [![](https://jitpack.io/v/Deepblue1996/Bun.svg)](https://jitpack.io/#Deepblue1996/Bun)
 <a href="https://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/license-apache-green.svg"></a>
 
-DpWork is a convenient application development framework.
+DpWork is an Android application development framework that is simple, convenient and comprehensive
+
+Adopt - single Activity+ multi Fragment frame design
+
+Support for adaptive layouts, high custom popup support, network layer Dove, image frame glide,
+OpenGL audio media playback, utility class set, built-in internationalization language selection, support advanced anti - flashback mechanism
 
 ### [not open source, only available for use]
 

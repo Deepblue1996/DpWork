@@ -4,7 +4,12 @@
 [![](https://jitpack.io/v/Deepblue1996/Bun.svg)](https://jitpack.io/#Deepblue1996/Bun)
 <a href="https://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/license-apache-green.svg"></a>
 
-DpWork是一款便捷的应用程序开发框架。
+DpWork是一款Android应用程序开发框架, 简单，便捷，集合
+
+采用 - 单Activity+ 多Fragment框架设计
+
+支持自适应布局，高自定义弹窗支持，网络层Dove，图片框架glide,
+openGL音频媒体播放，实用工具类集合，内置国际化语言选择，支持高级防闪退机制等
 
 ### [不是开源的，只供使用]
 
