@@ -16,23 +16,18 @@ One:
 
 Create or open your Application Class, 
 
-You must extend DpWorkApplication
+You must extend DpWorkApplication, then add the class annotation
 
-<pre><code>@Override
+<pre><code>
 @DpBugly(id = "")
-protected void initApplication() {
-
-}
 </code></pre>
 
 Two:
 
-Create public class WorkCore extends DpWorkCore
+Create public class WorkCore extends DpWorkCore, then add the class annotation
 
-<pre><code>@Override
+<pre><code>
 @DpInit(core = *.class)
-protected void initCore() {
-}
 </code></pre>
 
 ## Basic deployment
@@ -58,7 +53,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.deep:DpWork:2.1.2'
+	        compile 'com.deep:DpWork:2.2.0'
 	}
 Step 3. Edit AndroidManifest, full screen adaptation, basic modification, style
 

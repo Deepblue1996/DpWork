@@ -16,23 +16,18 @@ DpWork是一款便捷的应用程序开发框架。
 
 创建并打开 Application Class,
 
-必须继承 DpWorkApplication，重写
+继承 DpWorkApplication，然后添加类注解
 
-<pre><code>@Override
+<pre><code>
 @DpBugly(id = "")
-protected void initApplication() {
-
-}
 </code></pre>
 
 第二步:
 
-创建 public class WorkCore extends DpWorkCore，并重写
+创建 public class WorkCore extends DpWorkCore, 然后添加类注解
 
-<pre><code>@Override
+<pre><code>
 @DpInit(core = *.class)
-protected void initCore() {
-}
 </code></pre>
 
 ## 基础配置
@@ -54,7 +49,7 @@ protected void initCore() {
 步骤2. 添加依赖关系
 
 	dependencies {
-	        compile 'com.deep:DpWork:2.1.2'
+	        compile 'com.deep:DpWork:2.2.0'
 	}
 步骤3. 修改AndroidManifest，全面屏适配，基础修改，样式
 
