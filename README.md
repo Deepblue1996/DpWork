@@ -63,7 +63,8 @@ Step 2. Add the dependency
 	}
 
 	Android Studio 3.0+:
-    api('com.deep:DpWork:2.2.3') {
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation('com.deep:DpWork:2.2.3') {
         exclude module: 'support-v4'
         exclude group: 'com.android.support'
     }
