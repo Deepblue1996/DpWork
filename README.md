@@ -13,8 +13,7 @@ OpenGL audio media playback, utility class set, built-in internationalization la
 
 Welcome to QQ group: 257015764
 
-### <a href="https://github.com/Deepblue1996/DpWorkDemo">See using sample source code(java-AndroidStudio2.3.3)</a>
-### <a href="https://github.com/Deepblue1996/KotlinDpWork">See using sample source code(kotlin-AndroidStudio3.0+)</a>
+### See using sample source code<a href="https://github.com/Deepblue1996/DpWorkDemo">java-AndroidStudio2.3.3</a>/<a href="https://github.com/Deepblue1996/KotlinDpWork">kotlin-AndroidStudio3.0+</a>
 
 [[中文文档]](https://github.com/Deepblue1996/DpWork/blob/master/README_CN.md)
 
