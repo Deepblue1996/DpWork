@@ -25,14 +25,14 @@ Create or open your Application Class,
 
 You must extend DpWorkApplication, then add the class annotation
 
-<pre><code>@DpBugly(id = "")
+<pre><code>@DpBugly("Bugly id")
 </code></pre>
 
 Two:
 
 Create public class WorkCore extends DpWorkCore, then add the class annotation
 
-<pre><code>@DpInit(core = *.class)
+<pre><code>@DpInit(*.class) // FirstScreen Name
 </code></pre>
 
 ## Basic deployment
