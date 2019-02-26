@@ -60,7 +60,7 @@ Step 2. Add the dependency
     Android Studio 2.3.3:
 
 	dependencies {
-	        compile 'com.deep:DpWork:2.2.3'
+	    compile 'com.deep:DpWork:2.2.3'
 	}
 
 	Android Studio 3.0 +:

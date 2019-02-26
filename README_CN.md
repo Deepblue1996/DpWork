@@ -56,7 +56,7 @@ openGL音频媒体播放，实用工具类集合，内置国际化语言选择�
     Android Studio 2.3.3:
 
 	dependencies {
-	        compile 'com.deep:DpWork:2.2.3'
+	    compile 'com.deep:DpWork:2.2.3'
 	}
 
 	Android Studio 3.0 +:
