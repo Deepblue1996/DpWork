@@ -13,7 +13,7 @@ openGL音频媒体播放，实用工具类集合，内置国际化语言选择�
 
 欢迎加入QQ群: 257015764
 
-### 查看使用示例源码 - <a href="https://github.com/Deepblue1996/DpWorkDemo">java-AndroidStudio2.3.3</a>/<a href="https://github.com/Deepblue1996/KotlinDpWork">kotlin-AndroidStudio3.0+</a>
+### 查看使用示例源码 - <a href="https://github.com/Deepblue1996/DpWorkDemo">java-AndroidStudio2.3.3</a>/<a href="https://github.com/Deepblue1996/QiaoQiao">kotlin-AndroidStudio3.0+/瞧瞧</a>
 
 [[English document]](https://github.com/Deepblue1996/DpWork/blob/master/README.md)
 
