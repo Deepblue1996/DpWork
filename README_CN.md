@@ -59,7 +59,7 @@ openGL音频媒体播放，实用工具类集合，内置国际化语言选择�
 	        compile 'com.deep:DpWork:2.2.3'
 	}
 
-	Android Studio 3.0+:
+	Android Studio 3.0 +:
 
     implementation 'com.android.support:multidex:1.0.3'
     implementation('com.deep:DpWork:2.2.3') {
