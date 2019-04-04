@@ -60,24 +60,20 @@ Step 2. Add the dependency
     Android Studio 2.3.3:
 
 	dependencies {
-	    compile 'com.deep:DpWork:2.3.5'
+	    compile 'com.deep:DpWork:2.3.6'
 	}
 
 	Android Studio 3.0 +:
 
     implementation 'com.android.support:multidex:1.0.3'
-    implementation('com.deep:DpWork:2.3.5') {
+    implementation('com.deep:DpWork:2.3.6') {
         exclude module: 'support-v4'
         exclude group: 'com.android.support'
     }
-Step 3. Edit AndroidManifest, full screen adaptation, basic modification, style
 
-    <meta-data
-        android:name="android.max_aspect"
-        android:value="2.1" />
-Step 4. For confusion, refer to proguard-rules.pro here
+Step 3. For confusion, refer to proguard-rules.pro here
 
-Step 5. Gradle
+Step 4. Gradle
 
 ## LICENSE
 

@@ -56,24 +56,20 @@ openGL音频媒体播放，实用工具类集合，内置国际化语言选择�
     Android Studio 2.3.3:
 
 	dependencies {
-	    compile 'com.deep:DpWork:2.3.5'
+	    compile 'com.deep:DpWork:2.3.6'
 	}
 
 	Android Studio 3.0 +:
 
     implementation 'com.android.support:multidex:1.0.3'
-    implementation('com.deep:DpWork:2.3.5') {
+    implementation('com.deep:DpWork:2.3.6') {
         exclude module: 'support-v4'
         exclude group: 'com.android.support'
     }
-步骤3. 修改AndroidManifest，全面屏适配，基础修改，样式
 
-    <meta-data
-        android:name="android.max_aspect"
-        android:value="2.1" />
-步骤4. 使用混淆，可参考这里的 proguard-rules.pro
+步骤3. 使用混淆，可参考这里的 proguard-rules.pro
 
-步骤5. Gradle
+步骤4. Gradle
 
 ## LICENSE
 
