@@ -60,13 +60,13 @@ Step 2. Add the dependency
     Android Studio 2.3.3:
 
 	dependencies {
-	    compile 'com.deep:DpWork:2.6.0'
+	    compile 'com.deep:DpWork:2.6.1'
 	}
 
 	Android Studio 3.0 +:
 
     implementation 'com.android.support:multidex:1.0.3'
-    implementation('com.deep:DpWork:2.6.0') {
+    implementation('com.deep:DpWork:2.6.1') {
         exclude module: 'support-v4'
         exclude group: 'com.android.support'
     }
