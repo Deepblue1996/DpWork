@@ -11,6 +11,8 @@ DpWork是一款Android应用程序开发框架, 简单，便捷，集合
 支持自适应布局，高自定义弹窗支持，网络层Dove，图片框架glide,
 openGL音频媒体播放，实用工具类集合，内置国际化语言选择，支持高级防闪退机制等
 
+注意: 新版本以后不再更新媒体版本，可以下载wlmedia-1.0.0-beta11.aar，自行引入 (MusicLibUtil保留，可以参考使用)
+
 欢迎加入QQ群: 257015764
 
 ### 查看使用示例源码 - <a href="https://github.com/Deepblue1996/DpWorkDemo">java-AndroidStudio2.3.3</a>/<a href="https://github.com/Deepblue1996/QiaoQiao">kotlin-AndroidStudio3.0+/瞧瞧</a>
