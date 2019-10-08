@@ -60,7 +60,7 @@ Step 2. Add the dependency
     Android Studio 2.3.3:
 
 	dependencies {
-	    compile 'com.deep:DpWork:2.7.6'
+	    compile 'com.deep:DpWork:2.7.8'
 	    // com.deep:DpWork:2.7.4-wlmedia // 媒体版
 	}
 
@@ -68,7 +68,7 @@ Step 2. Add the dependency
 
     implementation 'com.android.support:multidex:1.0.3'
 	// com.deep:DpWork:2.7.4-wlmedia // 媒体版
-    implementation('com.deep:DpWork:2.7.6') {
+    implementation('com.deep:DpWork:2.7.8') {
         exclude module: 'support-v4'
         exclude group: 'com.android.support'
     }
